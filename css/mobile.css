@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+   .stats .col-lg-4:not(:last-child){
+        border-bottom: 1px solid #d73f09;
+        padding:2rem 0;
+   }
+   .locations .col-md-6:not(.description){
+     order:1;
+   }
+   .locations .description{
+     order:2;
+   }
+   .locations img{
+     margin-bottom: 20px;
+   }
+}

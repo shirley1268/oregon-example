@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "Stratum2Web";
+    src: url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebThin.woff) format("woff"),url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebThin.woff2) format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stratum2Web";
+    src: url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebLight.woff) format("woff"),url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebLight.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stratum2Web";
+    src: url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebRegular.woff) format("woff"),url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebRegular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stratum2Web";
+    src: url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebMedium.woff) format("woff"),url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebMedium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stratum2Web";
+    src: url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebBold.woff) format("woff"),url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebBold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stratum2Web";
+    src: url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebBlack.woff) format("woff"),url(https://oregonstate.edu/themes/custom/madrone/fonts/Stratum2WebBlack.woff2) format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Stratum2Web", serif;
+}
+h1{
+    font-weight: 500;
+}
+h2 {
+    font-weight: 600;
+}
+u,#oregonCarousel a{
+    text-decoration-color: #d73f09;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 2px;
+}
+#oregonCarousel a{
+    color:#fff;
+}
+a:hover{
+    color:#d73f09;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+.navbar{
+    padding:1rem 0;
+    background-color: #212529;
+}
+
+.home-carounsel-image{
+    height: 60vh;
+    min-height: 400px;
+    background-position: center;
+    background-size:cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #d73f09;
+    color:#fff;
+    border-radius: 0;
+    margin-top: 1.4rem;
+    font-size: .9rem;
+}
+#oregonCarousel {
+    margin-top: 6rem;
+}
+#oregonCarousel .carousel-caption{
+    background-color: rgb(255 255 255 / 80%);
+    padding: 1.5rem;
+    max-width: 700px;
+    text-align: left;
+    position: relative;
+    top: inherit;
+    right: inherit;
+    left:inherit;
+    color: #000;
+}
+#oregonCarousel .carousel-indicators .active{
+    background-color: #d73f09;
+}
+#oregonCarousel .carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+#oregonCarousel .carousel-control-next-icon, #oregonCarousel .carousel-control-prev-icon{
+    
+    background-size: 20px;
+    background-color: #d73f09;
+    border-radius: 50%;
+    opacity: 1;
+    transition: none;
+    padding: 20px;
+}
+#oregonCarousel .carousel-control-next,#oregonCarousel .carousel-control-prev{
+    opacity: 1;
+    transition: none;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 9%;
+}
+.stats{
+    padding:4rem 0;
+}
+.callout{
+    font-size: 4rem;
+    font-weight: 700;
+    color:#d73f09;
+    font-family: "Stratum2Web", serif;
+}
+/* .stats ul{
+    padding:0 0 0 20px;
+} */
+.stats ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stats li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+    margin-bottom: 10px;
+}
+
+.stats li::before {
+    content: "• ";
+    color: #d73f09;
+}
+.stats a{
+    color:#000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.stats .row{
+    height: 100%;
+    align-items: center;
+}
+.stats .fa-arrow-right:before{
+    color:#d73f09;
+    right: -10px;
+    position: relative;
+    transition: right 0.3s ease;
+
+}
+.stats a:hover .fa-arrow-right:before{
+    right:-20px;
+    position: relative;
+}
+.locations{
+    background-color: #212529;
+    color: #fff;
+    padding: 2.5rem 0;
+}
+.locations .nav-tabs .nav-item.show .nav-link, .locations .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 4px solid #d73f09;
+}
+.locations .nav{
+    margin-bottom: 2rem;
+}
+.locations .nav-link{
+    color:#fff;
+    border:0;
+    border-radius: 0;
+
+}
+.locations .nav-tabs .nav-link:hover,.locations .nav-tabs .nav-link:focus{
+    color:#d73f09;
+}
+.locations .description{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.h-wrapper{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.stats header,.locations header{
+    margin:0 0 2rem 0;
+}
